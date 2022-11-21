@@ -19,10 +19,10 @@ let discountPriceJunior = (price - discountJunior);
 // calcolo del prezzo finale al cliente in base al'età 
 
 if (age < 18) {
-    console.log(discountPriceJunior);
+    document.getElementById ("final-price").innerHTML = discountPriceJunior;
 } else if (age > 65) {
-    console.log(discountPriceOver);
+    document.getElementById ("final-price").innerHTML = discountPriceJunior;
 }
 else {
-    console.log(price);
+    document.getElementById ("final-price").innerHTML = price;
 }
