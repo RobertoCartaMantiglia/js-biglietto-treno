@@ -6,9 +6,19 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+main{
+    background-image: url("https://www.ehabitat.it/wp-content/uploads/2022/04/treni-panoramici.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 1.3rem;
+}
 div{
     text-align: center;
     line-height: 2.5rem;
+    padding: 2rem;
 }
 button{
     border: none;

@@ -6,12 +6,14 @@ console.log( distance);
 const age = parseInt (prompt ("Quanti anni hai?"));
 console.log(age);
 
+// prezzo intero 
 const price = (distance * 0.21);
 
-
+// sconto in base all'età 
 let discountOver = (price * 0.40);
 let discountJunior = (price * 0.20);
 
+// prezzo scontato 
 let discountPriceOver = (price - discountOver);
 let discountPriceJunior = (price - discountJunior);
 
